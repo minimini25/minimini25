@@ -2,7 +2,7 @@
 
 I am a frontend developer from South Korea.
 
-- 👨‍💻 All of my projects are available at [myPortfolio](https://sizplay.github.io/myPortfolio)
+- 👨‍💻 All of my projects are available at [myPortfolio]
 
 - ⚡ I’m interested in Extreme sports
 
