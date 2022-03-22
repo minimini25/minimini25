@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 - UI실습</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="login__form" action="XXX.jsp" method="post">
+        <h1>로그인</h1>
+        <p>신규 사용자이신가요? <a href="#">계정 만들기</a></p>
+        <label for="useremail">이메일 주소
+            <input type="email" id="useremail" placeholder="이메일 주소를 입력해주세요">
+        </label>
+        <input type="submit" class="btn__submit" value="계속">
+        <div class="divider">
+            <hr />
+            <span>또는</span>
+        </div>
+        <button class="btn__google">
+            <i class="icon icon-google"></i> Google로 계속
+        </button>
+        <button class="btn__facebook">
+            <i class="icon icon-facebook"></i>Facebook으로 계속
+        </button>
+        <p class="captcha__text">
+            reCAPTCHA로 보호되며 Google <a href="#">개인정보보호 정책</a>
+            및 <a href="#">서비스 약관</a>의 적용을 받습니다.</p>
+    </form>
+</body>
+
+</html>
